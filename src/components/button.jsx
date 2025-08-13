@@ -3,21 +3,21 @@
 const ThemeToggle = ({ isDark, toggleTheme }) => {
 
   const personalIcons = [
-    { icon: 'https://i.ibb.co/rRMFDhsB/linkedin.png', name: 'Linkedin', link: 'https://facebook.com' },
+    { icon: 'https://i.ibb.co/rRMFDhsB/linkedin.png', name: 'Linkedin', link: 'https://www.linkedin.com/login' },
     { icon: 'https://i.ibb.co/VYrjdmZ1/twitter.png', name: 'Twitter', link: 'https://twitter.com' },
-    { icon: 'https://i.ibb.co/20Z411rr/instagram.png', name: 'Instagram', link: 'https://instagram.com' },
-    { icon: 'https://i.ibb.co/PsZLMQHY/fivs.png', name: 'Fiverr', link: 'https://github.com' },
-    { icon: 'https://i.ibb.co/whV28znb/cofounderlab.png', name: 'CoFoundersLab', link: 'https://linkedin.com' },
-    { icon: 'https://i.ibb.co/Jj9ND1hP/selar.png', name: 'Selar', link: 'https://linkedin.com' },
+    { icon: 'https://i.ibb.co/20Z411rr/instagram.png', name: 'Instagram', link: 'https://www.instagram.com/scan.qr_app/' },
+    { icon: 'https://i.ibb.co/PsZLMQHY/fivs.png', name: 'Fiverr', link: 'https://www.fiverr.com/' },
+    { icon: 'https://i.ibb.co/whV28znb/cofounderlab.png', name: 'CoFoundersLab', link: 'https://cofounderslab.com/' },
+    { icon: 'https://i.ibb.co/Jj9ND1hP/selar.png', name: 'Selar', link: 'https://selar.com/' },
   ];
 
   const organisationIcons = [
     { icon: 'https://i.ibb.co/zh0fJwg9/globe.png', name: 'Website', link: 'https://linkedin.com' },
     { icon: 'https://i.ibb.co/rRMFDhsB/linkedin.png', name: 'LinkedIn', link: 'https://linkedin.com' },
     { icon: 'https://i.ibb.co/VYrjdmZ1/twitter.png', name: 'Twitter', link: 'https://twitter.com' },
-    { icon: 'https://i.ibb.co/cSVtNSYb/social.png', name: 'Amazon', link: 'https://github.com' },
-    { icon: 'https://i.ibb.co/RGZMXsFq/etsy.png', name: 'Etsy', link: 'https://github.com' },
-    { icon: 'https://i.ibb.co/yBSr2wLB/wats.png', name: 'Watsapp Business', link: 'https://github.com' },
+    { icon: 'https://i.ibb.co/cSVtNSYb/social.png', name: 'Amazon', link: 'https://www.amazon.com/' },
+    { icon: 'https://i.ibb.co/RGZMXsFq/etsy.png', name: 'Etsy', link: 'https://www.etsy.com/signin' },
+    { icon: 'https://i.ibb.co/yBSr2wLB/wats.png', name: 'Watsapp Business', link: 'https://business.whatsapp.com/' },
   ];
 
   return (

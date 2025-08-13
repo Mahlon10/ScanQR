@@ -4,7 +4,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="https://i.postimg.cc/MTFfrNVf/favicon-32x32.png" sizes="any" />
+        <link rel="icon" href="https://i.postimg.cc/9XTN4gbg/QR-Brand-Logo.jpg" sizes="any" />
         <title>ScanQR</title>
         <meta name="description" content="A modern webapp containing profile social links and contacts" />
       </head>

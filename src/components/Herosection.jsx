@@ -14,7 +14,7 @@ export default function HeroBanner() {
   return (
     <div
       className="w-full h-screen flex justify-center items-center bg-cover bg-center relative"
-      style={{ backgroundImage: 'url("https://i.postimg.cc/bvXM8nvJ/site-professional.jpg")' }}
+      style={{ backgroundImage: 'url("https://i.postimg.cc/kGRpc9kL/site-professional-mobile.jpg")' }}
     >
       {/*contact info */}
       <div className="absolute top-4 left-1/2 transform -translate-x-1/2 flex flex-col items-left text-white text-sm space-y-1">
@@ -31,6 +31,10 @@ export default function HeroBanner() {
       {/* Theme toggle */}
       <div className="flex flex-col items-center justify-center">
         <ThemeToggle isDark={isDark} toggleTheme={toggleTheme} />
+      </div>
+      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center text-white">
+        <div className="font-bold text-xl">Dennis Acquah</div>
+        <div className="text-base">Acquah Properties</div>
       </div>
     </div>
   );
