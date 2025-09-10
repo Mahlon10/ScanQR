@@ -32,7 +32,7 @@ export default function HeroBanner() {
       <div className="flex flex-col items-center justify-center">
         <ThemeToggle isDark={isDark} toggleTheme={toggleTheme} />
       </div>
-      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center text-white">
+      <div className="absolute bottom-22 left-1/2 transform -translate-x-1/2 text-center text-white">
         <div className="font-bold text-xl">Dennis Acquah</div>
         <div className="text-base">Acquah Properties</div>
       </div>
